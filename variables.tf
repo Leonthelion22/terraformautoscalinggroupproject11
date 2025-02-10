@@ -12,6 +12,6 @@ variable "subnet_two" {
 variable "vpc_id" {
   description = "myvpc"
   type        = string
-  default     = "vpc-090bab833d6c0d6e5"     # grab your default VPC ID
+  default     = "vpc-090ba000000005"     # grab your default VPC ID
 
 }
