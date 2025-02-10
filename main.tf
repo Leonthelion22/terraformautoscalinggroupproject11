@@ -74,7 +74,7 @@ resource "aws_security_group" "terrasecg" {
     self        = true
     from_port   = 22
     to_port     = 22
-    cidr_blocks = ["66.108.66.189/32"] #Grab your own IP address
+    cidr_blocks = ["xxxxxxxxxxxx"] #Grab your own IP address
   }  #allow port 80
   ingress {
     from_port   = 80
